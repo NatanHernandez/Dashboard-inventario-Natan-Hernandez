@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard de Inventario</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <input id="menu-toggle" type="checkbox" class="visually-hidden" aria-hidden="true">
+
+  <div class="grid-container">
+
+    <!-- creacion del Sidebar -->
+    <aside class="sidebar" role="navigation" aria-label="Barra lateral">
+      <h2 class="logo">
+        <img src="assets/CAJAS.jpg" alt="Logo Inventario" class="logo-img" width="50">
+        Inventario
+      </h2>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="assets/productos.jpg" alt="Productos" class="icon-img" width="40">
+              Productos
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="assets/categorias.jpg" alt="Categorías" class="icon-img" width="40">
+              Categorías
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="assets/especificaciones.png" alt="Especificaciones" class="icon-img" width="40">
+              Especificaciones
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="assets/carrito.png" alt="Carrito" class="icon-img" width="40">
+              Carrito
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="assets/Reportes.png" alt="Reportes" class="icon-img" width="40">
+              Reportes
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- creacion del header -->
+    <header class="header" role="banner">
+      <label for="menu-toggle" class="menu-btn" aria-label="Abrir o cerrar menú" title="Menú"> &#x2630;</label>
+      <h1>Panel de Inventario</h1>
+      <form class="search" role="search" aria-label="Buscar">
+        <input type="search" placeholder="Buscar producto..." aria-label="Buscar producto">
+      </form>
+    </header>
+
+    <!-- creacion de tarjetas y tabla de productos -->
+    <main class="main" role="main">
+      <section class="tarjetas" aria-label="Tarjetas de resumen">
+        <article class="tarjeta" tabindex="0" aria-label="Total de productos 120">
+          <h3>Total Productos</h3>
+          <p>171</p>
+        </article>
+
+        <article class="tarjeta" tabindex="0" aria-label="Productos con stock bajo 8">
+          <h3>Catálogo</h3>
+          <p>171</p>
+        </article>
+
+        <article class="tarjeta" tabindex="0" aria-label="Ventas de hoy 35">
+          <h3>Ventas Hoy</h3>
+          <p>5</p>
+        </article>
+      </section>
+
+      <section class="tabla-section" aria-labelledby="lista-title">
+        <h2 id="lista-title">Lista de Productos</h2>
+        <table role="table">
+          <thead>
+            <tr role="row">
+              <th scope="col">Nombre</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Disponibles</th>
+              <th scope="col">Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Nevera</td>
+              <td>Electrodoméstico</td>
+              <td>6</td>
+              <td>$2000000</td>
+            </tr>
+            <tr>
+              <td>Olla express</td>
+              <td>Utensilios de cocción</td>
+              <td>42</td>
+              <td>$90000</td>
+            </tr>
+            <tr>
+              <td>Licuadora</td>
+              <td>Electrodoméstico</td>
+              <td>14</td>
+              <td>$67000</td>
+            </tr>
+            <tr>
+              <td>Televisor</td>
+              <td>Electrodoméstico</td>
+              <td>90</td>
+              <td>$1300000</td>
+            </tr>
+            <tr>
+              <td>Mesa de madera</td>
+              <td>Mueble</td>
+              <td>10</td>
+              <td>$900000</td>
+            </tr>
+            <tr>
+              <td>Microondas</td>
+              <td>Electrodoméstico</td>
+              <td>6</td>
+              <td>$700000</td>
+            </tr>
+            <tr>
+              <td>Biblioteca</td>
+              <td>Mueble</td>
+              <td>3</td>
+              <td>$800000</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+      <p>Natan Hernandez Dashboard | Agosto 2025</p>
+    </footer>
+  </div>
+</body>
+</html>
