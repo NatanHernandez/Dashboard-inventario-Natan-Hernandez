@@ -25,7 +25,7 @@ En este proyecto se creo un dashboard administrativo de gestion de inventarios e
 
 ---
 
-## 🖼 Capturas de pantalla
+## Capturas de pantalla
 
 ### Escritorio
 ![Escritorio](assets/pantalla.png)
