@@ -46,4 +46,4 @@ En este proyecto se creo un dashboard administrativo de gestion de inventarios e
 ---
 
 ##  Decisiones de diseño y accesibilidad
-- En este proyecto trate de usar diseño modular con el fin de dar a entender cada uno de los items (header,main, etc), se usan paletas de colores para que sea mas llamativo el proyecto, atributos de accesibilidad y los responsive para el correcto funcionamiento en distintos dispositivos 
+- En este proyecto trate de usar diseño modular con el fin de dar a entender cada uno de los items (header,main, etc), se usan paletas de colores para que sea mas llamativo el proyecto, atributos de accesibilidad para dar a conocer el proyecto de forma mas llamativa mediante imagenres y colores y los responsive para el correcto funcionamiento en distintos dispositivos electronicos 
