@@ -4,14 +4,19 @@
 En este proyecto se creo un dashboard administrativo de gestion de inventarios en html y css el cual tiene los siguientes componentes:  
 
 - **Sidebar**
+- 
 - Esta es la barra lateral que contiene un menu de navegacion y opciones
 - **Header**
+- 
 - Campo de busqueda y informacion general del dashboard
 - **Main**
+- 
 - Tarjetas y tablas con la lista de todos los productos
 - **Diseño responsive**
+- 
 - La adaptacion del dashboard en distintos dispositivos como computador, celular y tablet
 - **footer**
+- 
 - Pie de pagina que contiene una pequeña descripcion 
 
 
