@@ -23,7 +23,7 @@ En este proyecto se creo un dashboard administrativo de gestion de inventarios e
 - **Media Queries**
 -  Facilidad para la accesibilidad a diferentes dispositivos.
 
-
+---
 
 ## 🖼 Capturas de pantalla
 
@@ -33,8 +33,6 @@ En este proyecto se creo un dashboard administrativo de gestion de inventarios e
 
 ### Celular
 ![celular](assets/celular.png)
-
-*(Agrega las capturas reales en la carpeta `assets` con esos nombres para que se muestren aquí.)*
 
 ---
 
