@@ -28,11 +28,11 @@ En este proyecto se creo un dashboard administrativo de gestion de inventarios e
 ## 🖼 Capturas de pantalla
 
 ### Escritorio
-![Escritorio](assets/escritorio.png)
+![Escritorio](assets/pantalla.png)
 
 
 ### Celular
-![celular](assets/celular.png)
+![celular](assets/celular.jpg)
 
 ---
 
